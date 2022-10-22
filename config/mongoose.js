@@ -2,7 +2,9 @@
 const mongoose = require("mongoose");
 
 // connecting to the localhost/system server of our project db
-mongoose.connect("mongodb://localhost/issue_tracker_db");
+mongoose.connect(
+  "mongodb+srv://AkhileshP:akhilkulal@cluster0.ckuf0qk.mongodb.net/issuetracker?"
+);
 
 // connecting between database and mongoose
 const db = mongoose.connection;
