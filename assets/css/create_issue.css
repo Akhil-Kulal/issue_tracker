@@ -1,0 +1,60 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#new-issue-form {
+  margin-top: 6vh;
+  width: 40vw;
+  margin-left: 30vw;
+  border-radius: 1vh;
+  background-color: lightgray;
+  padding: 2vh;
+}
+
+#title {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 1vh;
+  margin-bottom: 1vh;
+  border: 2px solid rgb(194, 192, 174);
+  background-color: rgb(240, 228, 232);
+}
+
+#description {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 2px solid rgb(194, 192, 174);
+  background-color: rgb(240, 228, 232);
+  margin-bottom: 1vh;
+}
+
+#label {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 2px solid rgb(194, 192, 174);
+  background-color: rgb(240, 228, 232);
+  margin-bottom: 1vh;
+}
+
+#author {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 2px solid rgb(194, 192, 174);
+  background-color: rgb(240, 228, 232);
+  margin-bottom: 1vh;
+}
+
+#submit-btn {
+  border-radius: 1vh;
+  background-color: rgb(151, 206, 151);
+  margin-bottom: 1vh;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
